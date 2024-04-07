@@ -6,10 +6,6 @@ import Button from "../subcomponents/button";
 
 const navElements = [
   {
-    element: <NavItem title="About Me" />,
-    parent_styling: "px-3 py-2",
-  },
-  {
     element: <NavItem title="Experience" />,
     parent_styling: "px-3 py-2",
   },

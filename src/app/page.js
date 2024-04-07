@@ -1,4 +1,3 @@
-import AboutMe from "@/components/sections/about-me";
 import Experience from "@/components/sections/experience";
 import Intro from "@/components/sections/intro";
 import Research from "@/components/sections/research";
@@ -12,7 +11,6 @@ export default function Home() {
       <main className="flex absolute top-0 min-h-screen flex-col items-center justify-between z-1">
         <div className="px-24">
           <Intro />
-          <AboutMe />
           <Experience />
           <Research />
           <Projects />

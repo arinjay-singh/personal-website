@@ -2,7 +2,7 @@ export default function GithubLogo() {
   return (
     <a href="https://github.com/arinjay-singh" target="_blank">
       <svg
-        className="fill-slate-600 hover:fill-cyan-600 transition ease-in-out duration-300 hover:scale-110"
+        className="fill-slate-600 hover:fill-cyan-600 transition ease-out duration-300 hover:scale-110"
         xmlns="http://www.w3.org/2000/svg"
         width="25"
         height="25"
