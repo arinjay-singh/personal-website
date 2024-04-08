@@ -1,10 +1,30 @@
 import Section from "../subcomponents/section";
+import ProjectModule from "../subcomponents/project-module";
 
 export default function Projects() {
   return (
-    <Section section_id="projects">
-      <h1 className="text-6xl font-bold">Projects</h1>
-      <h2 className="text-2xl font-medium">Arinjay Singh</h2>
+    <Section section_id="projects" className={"pt-20"}>
+      <h1 className=" text-5xl font-bold text-slate-600 pt-8">Projects</h1>
+      <div className=" grid grid-flow-col snap-mandatory snap-x space-x-5 w-[82rem] px-64 pt-14 pb-32 overflow-x-auto overflow-y-hidden">
+        <ProjectModule>
+          
+        </ProjectModule>
+        <ProjectModule>
+          
+        </ProjectModule>
+        <ProjectModule>
+          
+        </ProjectModule>
+        <ProjectModule>
+          
+        </ProjectModule>
+        <ProjectModule>
+          
+        </ProjectModule>
+        <ProjectModule>
+          
+        </ProjectModule>
+      </div>
     </Section>
   );
 }

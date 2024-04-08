@@ -13,20 +13,26 @@ export default function Contact() {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, subject, message);
+    let body = {
+      name: name,
+      email: email,
+      subject: subject,
+      message: message,
+    }
+    console.log(body);
     document.getElementById("contact-form").reset();
   }
 
   return (
-    <Section section_id="contact">
+    <Section section_id="contact" className={"pt-24 pb-16"}>
       <h1 className=" text-5xl font-bold text-slate-600 py-8">Contact Me</h1>
       <form id="contact-form" className=" w-1/2 space-y-4" onSubmit={onSubmit}>
         <div className=" flex flex-row gap-5">
-          <ContactField label="name" onChange={(e) => setName(e.target.value)} />
-          <ContactField label="email" onChange={(e) => setEmail(e.target.value)} />
+          <ContactField label="name" onChange={setName} />
+          <ContactField label="email" onChange={setEmail} />
         </div>
-        <ContactField label="subject" onChange={(e) => setSubject(e.target.value)} />
-        <ContactField label="message" onChange={(e) => setMessage(e.target.value)} isMessage />
+        <ContactField label="subject" onChange={setSubject} />
+        <ContactField label="message" onChange={setMessage} isMessage />
         <Button label="Send" />
       </form>
     </Section>

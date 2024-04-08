@@ -8,7 +8,7 @@ import Contact from "@/components/sections/contact";
 export default function Home() {
   return (
     <>
-      <main className="flex absolute top-0 min-h-screen flex-col items-center justify-between z-1">
+      <main className="flex top-0 min-h-screen flex-col items-center justify-between z-1 w-full max-w-[1500px] m-auto relative">
         <div className="px-24">
           <Intro />
           <Experience />
@@ -17,7 +17,7 @@ export default function Home() {
           <Skills />
           <Contact />
         </div>
-        <div className="bg-slate-600 w-full p-20 flex">
+        <div className="bg-slate-600 w-screen p-20 flex">
         </div>
       </main>
     </>
