@@ -1,6 +1,6 @@
 import NavItem from "../subcomponents/nav-item";
-import GithubLogo from "../logos/github-logo";
-import LinkedinLogo from "../logos/linkedin-logo";
+import GithubLogo from "../subcomponents/github-logo";
+import LinkedinLogo from "../subcomponents/linkedin-logo";
 import Link from "next/link";
 import Button from "../subcomponents/button";
 

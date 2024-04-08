@@ -14,7 +14,7 @@ export default function SkillCategory({ category, skills }) {
               height={100}
               className=" h-20 w-20 hover:scale-125 transition duration-300 ease-out rounded-lg"            
             />
-            <caption className="text-normal text-slate-600 hidden">{skill.name}</caption>
+            <h2 className="text-normal text-slate-600 hidden">{skill.name}</h2>
           </li>
         ))}
       </ul>

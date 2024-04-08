@@ -9,8 +9,8 @@ export default function Skills() {
     <Section section_id="skills">
       <h1 className=" text-5xl font-bold text-slate-600 pt-8">Technical Skills</h1>
       <SkillCategory category="Programming Languages" skills={languages} />
-      <SkillCategory category="Web Development" skills={webDevFrameworks} />
       <SkillCategory category="AI/ML/Data Tools" skills={dataTools} />
+      <SkillCategory category="Web Development" skills={webDevFrameworks} />
     </Section>
   );
 }
