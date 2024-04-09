@@ -26,7 +26,7 @@ const navElements = [
     parent_styling: "px-2 py-2",
   },
   {
-    element: <GithubLogo />,
+    element: <GithubLogo link="https://github.com/arinjay-singh" />,
     parent_styling: "px-2 py-2",
   },
   {

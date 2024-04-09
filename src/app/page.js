@@ -8,6 +8,8 @@ import Skills from "@/components/sections/skills";
 import Contact from "@/components/sections/contact";
 import Image from "next/image";
 import signature from "@/components/images/signature-white.svg";
+import Section from "@/components/subcomponents/section";
+import SectionDivider from "@/components/subcomponents/section-divider";
 
 export default function Home() {
   let year = new Date().getFullYear();
@@ -17,9 +19,11 @@ export default function Home() {
       <main className="flex top-0 min-h-screen flex-col items-center justify-between z-1 w-full overflow-x-hidden">
         <div className="max-w-[1500px] m-auto relative px-24">
           <Intro />
+          <SectionDivider />
           <Experience />
           <Research />
           <Projects />
+          <SectionDivider />
           <Skills />
           <Contact />
         </div>
