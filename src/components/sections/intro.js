@@ -8,11 +8,11 @@ export default function Intro() {
     <div className=" flex flex-col h-screen justify-center" id="introduction">
       <div className="flex flex-row">
         <div className="flex flex-col items-start justify-center pt-20 ml-36 ">
-          <h2 className=" font-medium font-sans text-4xl py-1">Hi, my name is</h2>
+          <h2 className=" font-medium font-sans text-4xl text-slate-600 py-1">Hi, my name is</h2>
           <h1 className=" font-bold font-sans text-8xl text-cyan-600 py-1">
             Arinjay Singh.
           </h1>
-          <h3 className=" font-medium font-sans text-3xl py-2 text-balance">
+          <h3 className=" font-medium font-sans text-3xl py-2 text-balance text-slate-600">
             I'm an aspiring software engineer studying Computer Science and
             Economics with a particular interest in the ethical implications of
             sociotechnical systems.
