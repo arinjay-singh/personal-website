@@ -11,7 +11,7 @@ export default function Contact() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  const onSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     let body = {
       name: name,
@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <Section section_id="contact" className={"pt-24 pb-16"}>
       <h1 className=" text-5xl font-bold text-slate-600 py-8">Contact Me</h1>
-      <form id="contact-form" className=" w-1/2 space-y-4" onSubmit={onSubmit}>
+      <form id="contact-form" className=" w-1/2 space-y-4" onSubmit={handleSubmit}>
         <div className=" flex flex-row gap-5">
           <ContactField label="name" onChange={setName} />
           <ContactField label="email" onChange={setEmail} />

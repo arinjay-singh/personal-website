@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import navElements from "./data/nav-elements";
-import signature from "./images/signature2.svg";
+import signature from "./images/signature-black.svg";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -13,8 +13,6 @@ export default function NavBar() {
   useEffect(() => {
     const handleScroll = () => {
       setScrollHeight(window.scrollY);
-      const scrollHeight = window.scrollY;
-      console.log(scrollHeight);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -23,6 +21,10 @@ export default function NavBar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [scrollHeight]);
+
+  useEffect(() => {
+    setScrollHeight(window.scrollY);
+  }, [])
 
 
   return (

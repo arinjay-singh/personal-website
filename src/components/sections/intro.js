@@ -2,7 +2,6 @@ import Link from "next/link";
 import Button from "../subcomponents/button";
 import Image from "next/image";
 import memoji from "../images/memoji.svg";
-import Section from "../subcomponents/section";
 
 export default function Intro() {
   return (

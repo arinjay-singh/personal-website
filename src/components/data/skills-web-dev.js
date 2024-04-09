@@ -10,6 +10,7 @@ import dockerIcon from "../images/skills/docker-icon.svg";
 import mysqlIcon from "../images/skills/mysql-icon.svg";
 import postgresIcon from "../images/skills/postgres-icon.svg";
 import mongodbIcon from "../images/skills/mongodb-icon.svg";
+import expressIcon from "../images/skills/express-icon.svg";
 
 const webDevFrameworks = [
   {
@@ -35,6 +36,10 @@ const webDevFrameworks = [
   {
     svg: nodeIcon,
     name: "Node.js",
+  },
+  {
+    svg: expressIcon,
+    name: "Express.js",
   },
   {
     svg: mysqlIcon,
