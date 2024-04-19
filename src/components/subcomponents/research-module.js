@@ -21,7 +21,7 @@ export default function ResearchModule({ research }) {
       >
         <div className=" relative flex flex-row-reverse items-start">
           <Image
-            src={`/images/research/grandparents.webp`}
+            src={`images/research/grandparents.webp`}
             alt="Grandparents and Grandchildren"
             width={400}
             height={400}
@@ -64,7 +64,7 @@ export default function ResearchModule({ research }) {
       <div className=" h-[35rem] w-[60rem] rounded-lg ring-1 ring-slate-200 shadow-xl hover:shadow-2xl hover:scale-[1.01]  ease-in-out duration-300 peer-hover:w-[25rem] bg-gray-100 text-slate-600 overflow-hidden ">
         <div className=" relative flex flex-row items-start">
           <Image
-            src={`/images/research/migrant-misinformation.webp`}
+            src={`images/research/migrant-misinformation.webp`}
             alt="Natural Language Processing"
             width={400}
             height={400}
