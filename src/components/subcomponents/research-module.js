@@ -89,8 +89,8 @@ export default function ResearchModule({ research }) {
             >
               Research Assistant to Professor Mai ElSherief
             </p>
-            <div className="py-5 px-8 ">
-              <p className=" indent-1">
+            <div className="py-5 px-8 space-y-5">
+              <p className=" indent-5">
                 As a research assistant under Professor Mai ElSherief, I am
                 working to utilize the field of Natural Language Processing
                 (NLP) to identify migrant misinformation patterns on social
@@ -98,7 +98,7 @@ export default function ResearchModule({ research }) {
                 Trust and Safety Research Award and aims to create positive
                 societal impact with technology.
               </p>
-              <p className=" indent-1">
+              <p className=" indent-5">
                 Additionally, as part of a secondary project I am developing a
                 framework based on the principles of Data Feminism for
                 evaluating the ethical use of data in current NLP systems. This
