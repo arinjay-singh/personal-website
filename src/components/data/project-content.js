@@ -18,7 +18,7 @@ const projectContent = [
     ],
     image: (
       <Image
-        src={`/images/projects/software-engineer.webp`}
+        src={`images/projects/software-engineer.webp`}
         alt="Software Engineer"
         width={400}
         height={400}
@@ -43,7 +43,7 @@ const projectContent = [
     ],
     image: (
       <Image
-        src={`/images/projects/cyberbullying.webp`}
+        src={`images/projects/cyberbullying.webp`}
         alt="Cyberbullying"
         width={400}
         height={400}
@@ -59,7 +59,7 @@ const projectContent = [
     skills: ["Python", "NLTK", "Elasticsearch", "Kibana", "Git"],
     image: (
       <Image
-        src={`/images/projects/information-retrieval.webp`}
+        src={`images/projects/information-retrieval.webp`}
         alt="Information Retrieval"
         width={400}
         height={400}
@@ -75,7 +75,7 @@ const projectContent = [
     skills: ["Python", "Scikit-Learn", "Matplotlib", "Pandas", "NumPy"],
     image: (
       <Image
-        src={`/images/projects/healthy-eating.webp`}
+        src={`images/projects/healthy-eating.webp`}
         alt="Northeastern Healthy Dining"
         width={400}
         height={400}
@@ -91,7 +91,7 @@ const projectContent = [
     skills: ["Python", "Git"],
     image: (
       <Image
-        src={`/images/projects/password-generation.webp`}
+        src={`images/projects/password-generation.webp`}
         alt="XKCD Password Generator Comic"
         width={400}
         height={400}
@@ -107,7 +107,7 @@ const projectContent = [
     skills: ["Python", "Git"],
     image: (
       <Image
-        src={`/images/projects/sudoku.webp`}
+        src={`images/projects/sudoku.webp`}
         alt="Sudoku"
         width={400}
         height={400}
@@ -123,7 +123,7 @@ const projectContent = [
     skills: ["Python", "Git"],
     image: (
       <Image
-        src={`/images/projects/pong.webp`}
+        src={`images/projects/pong.webp`}
         alt="Pong"
         width={400}
         height={400}
