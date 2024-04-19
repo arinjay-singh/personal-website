@@ -13,7 +13,7 @@ export default function Intro() {
             Arinjay Singh.
           </h1>
           <h3 className=" font-medium font-sans text-3xl py-2 text-balance text-slate-600">
-            I'm an aspiring software engineer studying Computer Science and
+            I&apos;m an aspiring software engineer studying Computer Science and
             Economics with a particular interest in the ethical implications of
             sociotechnical systems.
           </h3>
