@@ -48,16 +48,16 @@ export default function ResearchModule({ research }) {
             >
               Research Assistant to Professor Xiaolin Shi
             </p>
-            <ul className="list-disc py-5 px-8 space-y-5">
-              <li>
-                Explored the various health implications of grandparents
-                co-residing with their grandchildren utilizing self-rated health
-              </li>
-              <li>
-                Applied Difference-in-Difference Estimation and Regression
-                Discontinuity Design on 4,000+ grandparent-grandchild pairs
-              </li>
-            </ul>
+            <p className="py-5 px-8 indent-1">
+              As a research assistant under Professor Xiaolin Shi, I explored
+              the various health implications of grandparents co-residing with
+              their grandchildren utilizing self-rated health. More
+              specifically, I utilized the field of econometrics, applying
+              Difference-in-Difference Estimation and Regression Discontinuity
+              Design on 4,000+ grandparent-grandchild pairs pulled from the
+              Panel Study of Income Dynamics (PSID) conducted by the Survey
+              Research Center at the University of Michigan.
+            </p>
           </div>
         </div>
       </div>
@@ -89,16 +89,24 @@ export default function ResearchModule({ research }) {
             >
               Research Assistant to Professor Mai ElSherief
             </p>
-            <ul className="list-disc py-5 px-8 space-y-5">
-              <li>
-                Google Trust and Safety Research Award to identify migrant
-                misinformation patterns on social media in the U.S. and EU
-              </li>
-              <li>
-                Develop a framework based on the principles of Data Feminism for
-                evaluating the ethical use of data in current NLP systems
-              </li>
-            </ul>
+            <div className="py-5 px-8 ">
+              <p className=" indent-1">
+                As a research assistant under Professor Mai ElSherief, I am
+                working to utilize the field of Natural Language Processing
+                (NLP) to identify migrant misinformation patterns on social
+                media in the U.S. and EU. This research is funded by the Google
+                Trust and Safety Research Award and aims to create positive
+                societal impact with technology.
+              </p>
+              <p className=" indent-1">
+                Additionally, as part of a secondary project I am developing a
+                framework based on the principles of Data Feminism for
+                evaluating the ethical use of data in current NLP systems. This
+                framework will be used to evaluate the ethical implications of
+                the data used in the research and the potential biases that may
+                arise from it.
+              </p>
+            </div>
           </div>
         </div>
       </div>
