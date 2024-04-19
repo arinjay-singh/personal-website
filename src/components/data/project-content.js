@@ -18,9 +18,9 @@ const projectContent = [
     ],
     image: (
       <Image
-        src={`/images/projects/software-engineer.jpeg`}
+        src={`/images/projects/software-engineer.webp`}
         alt="Software Engineer"
-        width={455}
+        width={400}
         height={400}
         className=" h-[35rem]"
       />
@@ -43,9 +43,9 @@ const projectContent = [
     ],
     image: (
       <Image
-        src={`/images/projects/cyberbullying.jpeg`}
+        src={`/images/projects/cyberbullying.webp`}
         alt="Cyberbullying"
-        width={445}
+        width={400}
         height={400}
         className=" h-[35rem]"
       />
@@ -59,9 +59,9 @@ const projectContent = [
     skills: ["Python", "NLTK", "Elasticsearch", "Kibana", "Git"],
     image: (
       <Image
-        src={`/images/projects/information-retrieval.png`}
+        src={`/images/projects/information-retrieval.webp`}
         alt="Information Retrieval"
-        width={343}
+        width={400}
         height={400}
         className=" h-[35rem]"
       />
@@ -75,9 +75,9 @@ const projectContent = [
     skills: ["Python", "Scikit-Learn", "Matplotlib", "Pandas", "NumPy"],
     image: (
       <Image
-        src={`/images/projects/healthy-dining.jpeg`}
+        src={`/images/projects/healthy-eating.webp`}
         alt="Northeastern Healthy Dining"
-        width={375}
+        width={400}
         height={400}
         className=" h-[35rem]"
       />
@@ -91,9 +91,9 @@ const projectContent = [
     skills: ["Python", "Git"],
     image: (
       <Image
-        src={`/images/projects/xkcd.png`}
+        src={`/images/projects/password-generation.webp`}
         alt="XKCD Password Generator Comic"
-        width={500}
+        width={400}
         height={400}
         className=" h-[35rem]"
       />
@@ -106,21 +106,13 @@ const projectContent = [
     github: "https://github.com/arinjay-singh/Sudoku-Solver",
     skills: ["Python", "Git"],
     image: (
-      <div className="h-[35rem]">
-        <Image
-          src={`/images/projects/sudoku-unsolved.png`}
-          alt="Sodoku Unsolved"
-          width={963}
-          height={400}
-          
-        />
-        <Image
-          src={`/images/projects/sudoku-solved.png`}
-          alt="Sudoku Solved"
-          width={400}
-          height={400}
-        />
-      </div>
+      <Image
+        src={`/images/projects/sudoku.webp`}
+        alt="Sudoku"
+        width={400}
+        height={400}
+        className=" h-[35rem]"
+      />
     ),
   },
   {
@@ -131,10 +123,11 @@ const projectContent = [
     skills: ["Python", "Git"],
     image: (
       <Image
-        src={`/images/projects/pong.jpeg`}
+        src={`/images/projects/pong.webp`}
         alt="Pong"
-        width={341}
+        width={400}
         height={400}
+        className=" h-[35rem]"
       />
     ),
   },

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SkillCategory({ category, skills }) {
   return (
     <div className=" my-7">
-      <h2 className="text-lg text-center text-slate-600 mb-4">{category}</h2>
+      <h2 className="text-lg text-center text-slate-600 font-semibold mb-4">{category}</h2>
       <ul className="flex flex-row space-x-6">
         {skills.map((skill, index) => (
           <li key={index} className="flex flex-col text-center">

@@ -1,8 +1,9 @@
 "use client";
 
 import { useRef } from "react";
+import GithubLogo from "./github-logo";
 
-export default function ProjectModule({ children }) {
+export default function ProjectModule({ project }) {
   const projectRef = useRef();
 
   const handleClick = () => {
@@ -15,10 +16,35 @@ export default function ProjectModule({ children }) {
   return (
     <div
       onClick={handleClick}
-      className=" snap-center h-[35rem] w-[50rem] rounded-lg ring-1 ring-slate-200 shadow-xl hover:shadow-2xl hover:scale-[1.02] transition ease-in cursor-pointer bg-gray-100 overflow-hidden "
+      className=" snap-center h-[35rem] w-[50rem] rounded-lg ring-1 ring-slate-200 shadow-xl hover:shadow-2xl hover:scale-[1.00] transition ease-in cursor-pointer bg-gray-100 overflow-hidden "
       ref={projectRef}
     >
-      {children}
+      <div className="flex flex-row">
+        {project.image}
+        <div className="flex flex-col items-center justify-between">
+          <div className="flex flex-col items-center">
+            <h1 className="text-xl font-bold text-slate-600 pt-8">
+              {project.title}
+            </h1>
+            <div className="flex flex-row flex-wrap items-center justify-center space-x-4 pt-3 px-3">
+              {project.skills.map((skill, index) => (
+                <p
+                  key={index}
+                  className=" font-normal text-xs bg-cyan-600 text-gray-200 p-2 mb-2 rounded-lg shadow-lg"
+                >
+                  {skill}
+                </p>
+              ))}
+            </div>
+            <p className="text-lg font-thin text-slate-600 pt-4 px-3 ml-3">
+              {project.description}
+            </p>
+          </div>
+          <div className=" flex flex-row justify-end w-full p-5">
+            <GithubLogo link={project.github} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

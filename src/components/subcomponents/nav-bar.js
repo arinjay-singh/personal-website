@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import navElements from "./data/nav-elements";
-import signature from "./images/signature-black.svg";
+import navElements from "../data/nav-elements";
+import signature from "../images/signature-black.svg";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 

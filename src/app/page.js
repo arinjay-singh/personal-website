@@ -8,7 +8,6 @@ import Skills from "@/components/sections/skills";
 import Contact from "@/components/sections/contact";
 import Image from "next/image";
 import signature from "@/components/images/signature-white.svg";
-import Section from "@/components/subcomponents/section";
 import SectionDivider from "@/components/subcomponents/section-divider";
 
 export default function Home() {
