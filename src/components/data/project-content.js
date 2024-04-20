@@ -52,7 +52,7 @@ const projectContent = [
     ),
   },
   {
-    title: "Information Retrieval Ranking Functions",
+    title: "Information Retrieval Functions",
     description:
       "In this project, I implemented various document ranking functions for information retrieval systems such as Okapi TF, TF IDF, Okapi BM 25, and Laplace Language Model. The functions utilized an inverted index of a corpus to rank documents based on their relevance to a given query.",
     github: "https://github.com/S24-InformationRetrieval/hw2-arinjay-singh",
