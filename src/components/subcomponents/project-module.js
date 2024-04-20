@@ -23,14 +23,14 @@ export default function ProjectModule({ project }) {
         {project.image}
         <div className="flex flex-col items-center justify-between">
           <div className="flex flex-col items-center">
-            <h1 className="text-xl font-bold text-slate-600 pt-8">
+            <h1 className="text-2xl font-bold text-slate-600 pt-8">
               {project.title}
             </h1>
             <div className="flex flex-row flex-wrap items-center justify-center space-x-4 pt-3 px-3">
               {project.skills.map((skill, index) => (
                 <p
                   key={index}
-                  className=" font-normal text-xs bg-cyan-600 text-gray-200 p-2 mb-2 rounded-lg shadow-lg"
+                  className=" font-medium text-xs bg-cyan-600 text-gray-200 p-2 mb-2 rounded-lg shadow-lg"
                 >
                   {skill}
                 </p>
