@@ -5,7 +5,7 @@ const projectContent = [
   {
     title: "Cyberbullying Sentiment Analysis",
     description:
-      "In this project, I developed a Bi-directional Long Short-Term Memory (BiLSTM) model utilizing Word2Vec dense word embeddings to classify social media posts as cyberbullying or not cyberbullying. The model was trained on a joint cyberbullying and sentiment dataset of 250,000 tweets, achieving a weighted F1-score of 0.81 and an accuracy of 81%. It's relative performance was further confirmed by comparing it to a Logistic Regression model and VADER, a leading sentiment analysis tool.",
+      "In this project, I developed a Bi-directional Long Short-Term Memory (BiLSTM) model utilizing Word2Vec dense word embeddings to classify social media posts as cyberbullying or not cyberbullying. The model was trained on a joint sentiment and cyberbullying dataset of 250,000 tweets, achieving a weighted F1-score of 0.81 and an accuracy of 81%. It's relative performance was further confirmed by comparing it to a Logistic Regression model and VADER, a leading sentiment analysis tool.",
     github: "https://github.com/arinjay-singh/CyberbullyingSentimentAnalysis",
     skills: [
       "Python",

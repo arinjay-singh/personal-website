@@ -36,7 +36,7 @@ export default function ProjectModule({ project }) {
                 </p>
               ))}
             </div>
-            <p className="text-lg font-thin text-slate-600 pt-4 px-3 ml-3">
+            <p className="text-lg font-extralight text-slate-600 pt-4 px-3 ml-3">
               {project.description}
             </p>
           </div>
