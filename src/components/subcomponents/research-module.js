@@ -48,7 +48,7 @@ export default function ResearchModule({ research }) {
             >
               Research Assistant to Professor Xiaolin Shi
             </p>
-            <p className="py-5 px-8 indent-1">
+            <p className="py-5 px-8 indent-5">
               As a research assistant under Professor Xiaolin Shi, I explored
               the various health implications of grandparents co-residing with
               their grandchildren utilizing self-rated health. More
