@@ -23,7 +23,7 @@ export default function ProjectModule({ project }) {
         {project.image}
         <div className="flex flex-col items-center justify-between">
           <div className="flex flex-col items-center">
-            <h1 className="text-2xl font-bold text-slate-600 pt-8">
+            <h1 className="text-2xl font-bold text-slate-600 pt-8 px-3">
               {project.title}
             </h1>
             <div className="flex flex-row flex-wrap items-center justify-center space-x-4 pt-3 px-3">
