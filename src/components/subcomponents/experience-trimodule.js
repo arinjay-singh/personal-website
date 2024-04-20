@@ -47,7 +47,7 @@ export default function ExperienceTrimodule() {
             </p>
             <ul className=" list-disc py-5 space-y-5 hidden group-hover:block">
               <li>
-                Developing fronted and backend features to enhance user interface
+                Developing frontend and backend features to enhance user interface
                 and user experience of project management dashboard{" "}
               </li>
               <li>
