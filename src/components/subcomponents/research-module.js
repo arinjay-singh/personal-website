@@ -15,7 +15,7 @@ export default function ResearchModule({ research }) {
   return (
     <div className="flex flex-row-reverse space-x-5 space-x-reverse mt-8 w-full justify-between">
       <div
-        className=" h-[35rem] w-[25rem] hover:w-[60rem] rounded-lg ring-1 ring-slate-200 shadow-xl hover:shadow-2xl hover:scale-[1.01]  ease-in-out duration-300 peer bg-gray-100 text-slate-600 overflow-hidden"
+        className=" h-[35rem] w-[23rem] hover:w-[62rem] rounded-lg ring-1 ring-slate-200 shadow-xl hover:shadow-2xl hover:scale-[1.01]  ease-in-out duration-300 peer bg-gray-100 text-slate-600 overflow-hidden"
         onMouseEnter={handlePeerHover}
         onMouseLeave={handlePeerUnhover}
       >
@@ -61,7 +61,7 @@ export default function ResearchModule({ research }) {
           </div>
         </div>
       </div>
-      <div className=" h-[35rem] w-[60rem] rounded-lg ring-1 ring-slate-200 shadow-xl hover:shadow-2xl hover:scale-[1.01]  ease-in-out duration-300 peer-hover:w-[25rem] bg-gray-100 text-slate-600 overflow-hidden ">
+      <div className=" h-[35rem] w-[62rem] rounded-lg ring-1 ring-slate-200 shadow-xl hover:shadow-2xl hover:scale-[1.01]  ease-in-out duration-300 peer-hover:w-[23rem] bg-gray-100 text-slate-600 overflow-hidden ">
         <div className=" relative flex flex-row items-start">
           <Image
             src={`images/research/migrant-misinformation.webp`}
