@@ -1,6 +1,6 @@
 export default function LinkedinLogo() {
   return (
-    <a href="https://www.linkedin.com/in/arinjay-singh/" target="_blank">
+    <a href="https://www.linkedin.com/in/arinjay-singh/" target="_blank" alt="LinkedIn Logo">
       <svg
         className="fill-slate-600 hover:fill-cyan-600 transition ease-out duration-300 hover:scale-110"
         xmlns="http://www.w3.org/2000/svg"
