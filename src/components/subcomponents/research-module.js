@@ -25,7 +25,7 @@ export default function ResearchModule({ research }) {
             alt="Grandparents and Grandchildren"
             width={400}
             height={400}
-            className={` h-[35rem] flex-shrink-0 opacity-100 ${
+            className={` flex-shrink-0 opacity-100 ${
               !peerHover && `opacity-60`
             }`}
           />
@@ -68,7 +68,7 @@ export default function ResearchModule({ research }) {
             alt="Natural Language Processing"
             width={400}
             height={400}
-            className={` h-[35rem] flex-shrink-0 ${peerHover && `opacity-60`} `}
+            className={` flex-shrink-0 ${peerHover && `opacity-60`} `}
           />
           <div
             className={` flex flex-col py-8 items-center ${

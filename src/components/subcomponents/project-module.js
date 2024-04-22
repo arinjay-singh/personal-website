@@ -30,7 +30,7 @@ export default function ProjectModule({ project }) {
               {project.skills.map((skill, index) => (
                 <p
                   key={index}
-                  className=" font-medium text-xs bg-cyan-600 text-gray-200 p-2 mb-2 rounded-lg shadow-lg"
+                  className=" font-medium text-xs bg-cyan-700 text-gray-200 p-2 mb-2 rounded-lg shadow-lg"
                 >
                   {skill}
                 </p>
