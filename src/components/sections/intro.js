@@ -9,7 +9,7 @@ export default function Intro() {
       <div className="flex flex-row">
         <div className="flex flex-col items-start justify-center pt-20 ml-36 ">
           <h1 className=" font-medium font-sans text-4xl text-slate-600 py-1">Hi, my name is</h1>
-          <h2 className=" font-bold font-sans text-8xl text-cyan-600 py-1">
+          <h2 className=" font-bold font-sans text-8xl text-cyan-700 py-1">
             Arinjay Singh.
           </h2>
           <h3 className=" font-medium font-sans text-3xl py-2 text-balance text-slate-600">

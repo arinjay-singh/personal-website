@@ -4,7 +4,7 @@ export default function GithubLogo({ link }) {
   return (
     <Link href={link} target="_blank" alt="Github Logo">
       <svg
-        className="fill-slate-600 hover:fill-cyan-600 transition ease-out duration-300 hover:scale-110"
+        className="fill-slate-600 hover:fill-cyan-700 transition ease-out duration-300 hover:scale-110"
         xmlns="http://www.w3.org/2000/svg"
         width="25"
         height="25"
