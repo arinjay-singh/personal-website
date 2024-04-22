@@ -23,7 +23,7 @@ export default function ResearchModule({ research }) {
           <Image
             src={`images/research/grandparents.webp`}
             alt="Grandparents and Grandchildren"
-            width={300}
+            width={350}
             height={400}
             className={` flex-shrink-0 opacity-100 ${
               !peerHover && `opacity-60`
@@ -66,7 +66,7 @@ export default function ResearchModule({ research }) {
           <Image
             src={`images/research/migrant-misinformation.webp`}
             alt="Natural Language Processing"
-            width={300}
+            width={350}
             height={400}
             className={` flex-shrink-0 ${peerHover && `opacity-60`} `}
           />
