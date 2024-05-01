@@ -39,7 +39,7 @@ const navElements = [
   },
   {
     element: (
-      <Link href="https://drive.google.com/file/d/1ymQcKBwDQMSHJ-bo7QcIqKlB8JysU6oK/view?usp=drive_link" target="_blank">
+      <Link href="https://drive.google.com/file/d/1LXM8Fg02Xo_KWhBptqBc1qMMr3E0fezT/view?usp=sharing" target="_blank">
         <Button label="Resume" />
       </Link>
     ),
